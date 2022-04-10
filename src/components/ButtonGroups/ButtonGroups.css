@@ -1,0 +1,54 @@
+.buttonContainer{
+    color: white;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.btn-group button {
+    background-color: black; 
+    border: 1px   whitesmoke; 
+    color: white;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+    border-radius: 7px;
+    border-left: none;
+    border: 1px solid #6495ed;
+    ;
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; 
+  }
+  .btn{
+      width: 160px;
+  }
+  
+ 
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+ 
+  .btn-group button:hover {
+    background-color:#6495ed
+    ;
+  }
+  .Search{
+      padding-top: 5px;
+      padding-left: 16px;
+      border-radius: 16px;
+     
+      
+  }
+  .searchBox{
+    height: 30px;
+    width: 200px;
+    background-color: azure;
+    border-radius: 10px;
+    text-align: center;
+  }

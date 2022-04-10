@@ -1,0 +1,30 @@
+.header{
+    height: 100px;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.brand{
+    align-self: flex-start;
+    border: none;
+    color: white;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+.logo{
+    
+    margin: auto;
+
+    
+}
+
+.logoImg{
+    height: 60px;
+    width: 200px;
+}
+.heading{
+    color: white;
+    padding-bottom: 3px;
+}

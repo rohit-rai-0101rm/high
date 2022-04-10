@@ -1,0 +1,6 @@
+.gridLayout{
+height: 650px;
+width: 100%;
+color: white;
+background:transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+}
